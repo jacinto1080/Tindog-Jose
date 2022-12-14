@@ -1,0 +1,110 @@
+#title, #cta {   
+    background-color:#ff4c68;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-size: 45px;
+    line-height: 1.5;   
+}
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+h3,h1 {
+    font-weight: 900;
+}
+p {
+    margin-top: 15px;
+    font-size: small;
+}
+#features, .carousel-inner, .price, #footer {
+    padding: 7% 15%;
+}
+#title {
+    padding: 3% 15% 7% 15%;
+}
+.row {
+    padding: 50px;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+.nav-link {
+    margin-left: 18px;
+    font-size: 20px;
+    color: #fff;
+}
+.download {
+    margin: 4%;
+}
+.cutimgdog{
+    position: relative;
+}
+.imgdog {
+    width: 60%;
+    transform: rotate(25deg);
+    position:absolute;
+    right:30px;
+}
+.icon {
+    color:#ef8172;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+#features {
+    padding: 7% 14%;
+    background-color: #fff;
+    position: relative;
+}
+#testimonials, #press, #cta {
+    background-color: #ef8172;
+}
+#testimonials {
+    color: white;
+    font-size: 45px;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px auto;
+}
+em {
+    font-size: small;
+}
+#press {
+   padding-bottom: 80px;
+}
+.publi {
+    width: 15%;
+}
+#pricing { 
+    padding-top: 50px;
+}
+.card-price{
+    margin: 10px 10px;
+}
+
+#cta {
+    color: white;  
+    padding: 100px;
+}
+.redes {
+    margin-left: 10px;
+}
+@media (max-width:1040px){
+    #title {
+        text-align: center;
+    }
+    .imgdog {
+        transform: rotate(0deg);
+        position: static;
+    }
+}
